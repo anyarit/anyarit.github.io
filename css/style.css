@@ -1,0 +1,302 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.about {
+  width: 100%;
+  height: 25%;
+  /* border: 4px steelblue solid; */
+  padding: 2%;
+  /* margin: 25px; */
+  /* box-shadow: 5px 10px black; */
+  background-color: rgba(176, 196, 222, 1);
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 3%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-left: 20%;
+  font-family: serif;
+}
+
+/* .animate {
+  animation-name: bat;
+  animation-duration: 5s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bat {
+  0% {transform: translate(0,0);}
+  100% {transform: translate(2000px,0);}
+}
+
+img {
+  float: left;
+}*/
+
+.group:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+ul,li{
+  list-style-type: none;
+  display: inline-flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+ul {
+  /*width: 75%*/
+}
+
+li > a {
+  color: white;
+}
+
+nav {
+  background-color: dimgray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+nav > a {
+  color: white;
+  padding-left: 5%;
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited{
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+a:active {
+  color: cyan
+}
+
+.magcover {
+  margin-right: 5%;
+  margin-left: 5%;
+  float: left;
+  width: 40%;
+}
+
+.magcover > img {
+  width: 100%;
+}
+
+.magtext {
+    margin-right: 5%;
+}
+
+.zinespread {
+  margin-right: 5%;
+  margin-left: 5%;
+  float: right;
+  width: 40%
+}
+
+.zinespread > img {
+  width: 100%
+}
+
+.zinetext {
+  margin-left: 5%;
+}
+
+.covidposter {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  float: left;
+  width: 40%
+}
+
+.covidposter > img {
+  width: 100%
+}
+
+.covidtext {
+    margin-right: 5%;
+}
+
+.videocover {
+  float: right;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.videocover > video, iframe {
+  width: 100%;
+}
+
+.videotext {
+  margin-left: 5%;
+}
+
+.audiotext {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+/*.audiocover {
+  float: right;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.videocover {
+  float: left;
+  width: 40%;
+  margin-right: 5%;
+}
+
+.videocover > video, iframe {
+  width: 100%;
+}
+
+.tablecover {
+  float: right;
+  width: 40%;
+  margin-left: 5%;
+}
+
+table{
+  background-color: lightgray;
+  border: 1px solid black;
+  width:100%;
+}
+
+tr,td {
+  border: 1px solid black;
+  padding: 1%;
+  text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    background-color: green;
+    padding: 1%;
+}*/
+
+form {
+  width: 40%;
+  padding: 2%;
+  margin: 0 auto;
+  background-color: rgba(176, 196, 222, 0.75);
+  text-align: center;
+  align-self: center;
+}
+
+.contactme {
+  background-color: white;
+  background-image: url(../img/skyline.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.submitbutton {
+  padding: 2%;
+  width: 15%;
+}
+
+.extra {
+  background-color: dimgray;
+  color: white;
+  display: flex;
+}
+
+.footertext {
+  width: 50%;
+  padding: 2%;
+}
+
+.socials {
+  width: 50%;
+  padding: 2%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+}
+
+.socialbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a.social {
+  color: white;
+  padding: 5%;
+}
+
+/* .contact {
+  width: 100%;
+  height: 25%;
+  padding: 2%;
+  background-color: rgba(70, 130, 180, 0.5);
+  box-sizing: content-box;
+  background-image: url(../img/skyline.jpg);
+  background-size: auto auto;
+} */
+
+/* .box2 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 3%;
+  width: 60%;
+  margin: 0 auto;
+
+}*/
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+.magcover {
+  float: none;
+  width: 100%;
+  margin: 0;
+   }
+.zinespread {
+  float: none;
+  width: 100%;
+  margin: 0;
+   }
+
+.covidposter {
+  float: none;
+  width: 100%;
+  margin: 0;
+   }
+
+}
